@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    background-color: #1e0939;
+    width: 60px;
+    height: 100vh;
+    padding: 0;
+}
+/* Icono del hamburguesa abierta */
+.navP{
+    text-align: right;
+}
+#bntNav:focus,#bntNav:hover,#bntNav:active {
+    outline: none !important; /* Quita el borde de enfoque (outline) */
+    border: none !important;  /* Quita el borde del botón */
+}
+.botones button{
+    background: none;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.fa-bars, .fa-x{
+    color: #00FEFB;
+    font-size: 30px;
+}
+.wid250{
+    width: 250px !important;
+}
+/* Primera imagen */
+.imgbanner{
+    text-align: center;
+}
+.imgSec{
+    width: 7vh;
+    display: block;
+    margin: 10px auto;
+    
+}
+/* Segunda imagen */
+.dNone{
+    display: none !important;
+}
+.imgBanA{
+    width: 25vh;
+    display: block;
+    margin: 10px auto;
+}
+/* lista del menú */
+.fa-clipboard , .fa-list{
+    color: #fff;
+    font-size: 25px;
+    margin: 10px 0
+}
+.listMenu2{
+    text-align: left !important;
+/*     padding-left: 20px; */
+}
+.sec1 li{
+    list-style-type: none;
+}
+/* hoover */
+.sec1 li:hover{
+    background: #C1FF72;
+}
+.sec1 li:hover a{
+    color: #120424;
+    text-decoration: none;
+}
+.sec1 li:hover .fa-clipboard, .sec1 li:hover .fa-list{
+    color: #120424;
+}
